@@ -6,5 +6,7 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="lib" path="D:/ppbox_1.2.0/build/android/plugins/android/breakpad_util_jni.jar"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/pplink_jni.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jmdns.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

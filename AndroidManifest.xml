@@ -32,6 +32,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.pplive.demo.MainActivity" />
         </activity>
+        <activity
+            android:name="com.pplive.demo.VVPlayerActivity"
+            android:label="@string/title_activity_vvplayer"
+            android:parentActivityName="com.pplive.demo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pplive.demo.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
