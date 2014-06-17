@@ -8,12 +8,12 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-public class AndroidPlayer extends WebViewClient {
+public class WebViewPlayer extends WebViewClient {
 
 
 	private Activity owner;
 	
-	public AndroidPlayer(Activity owner)
+	public WebViewPlayer(Activity owner)
 	{
 		this.owner = owner;
 	}
@@ -34,7 +34,7 @@ public class AndroidPlayer extends WebViewClient {
 		        try
 		        {
 		            Intent intent = new Intent(
-		            		owner.getBaseContext(), PlayerActivity.class);
+		            		owner.getBaseContext(), VideoViewPlayerActivity.class);
 		            Bundle bl = new Bundle();
 					bl.putString("url", url);
 					intent.putExtras(bl);

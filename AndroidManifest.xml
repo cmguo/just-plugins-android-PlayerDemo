@@ -9,6 +9,7 @@
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -25,20 +26,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pplive.demo.PlayerActivity"
-            android:label="@string/title_activity_player"
-            android:parentActivityName="com.pplive.demo.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.pplive.demo.MainActivity" />
+            android:name="com.pplive.demo.FFMpegPlayerActivity"
+            android:label="@string/title_activity_ffmpeg_player" >
         </activity>
         <activity
-            android:name="com.pplive.demo.VVPlayerActivity"
-            android:label="@string/title_activity_vvplayer"
-            android:parentActivityName="com.pplive.demo.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.pplive.demo.MainActivity" />
+            android:name="com.pplive.demo.VideoViewPlayerActivity"
+            android:label="@string/title_activity_video_view_player" >
         </activity>
     </application>
 

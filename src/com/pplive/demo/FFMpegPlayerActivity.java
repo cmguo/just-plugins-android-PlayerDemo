@@ -13,7 +13,7 @@ import android.annotation.TargetApi;
 import android.content.Intent;
 import android.os.Build;
 
-public class PlayerActivity extends Activity {
+public class FFMpegPlayerActivity extends Activity {
 
 	private SurfaceView surface;
 	
@@ -22,7 +22,7 @@ public class PlayerActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_player);
+		setContentView(R.layout.activity_ffmpeg_player);
 		// Show the Up button in the action bar.
 		//setupActionBar();
 
@@ -68,7 +68,7 @@ public class PlayerActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.player, menu);
+		getMenuInflater().inflate(R.menu.ffmpeg_player, menu);
 		return true;
 	}
 
