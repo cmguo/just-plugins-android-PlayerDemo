@@ -1,9 +1,6 @@
 package com.pplive.demo;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 import com.pplive.sdk.PPBOX;
 import com.pplive.thirdparty.BreakpadUtil;
@@ -11,10 +8,8 @@ import com.pplive.thirdparty.BreakpadUtil;
 import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Intent;
 import android.view.Menu;
 import android.webkit.WebView;
-import android.widget.Toast;
 
 @SuppressLint("SetJavaScriptEnabled")
 public class MainActivity extends Activity {
@@ -39,7 +34,7 @@ public class MainActivity extends Activity {
 		System.out.println("java.library.path: " + System.getProperty("java.library.path"));
 		
 		File cacheDirFile = getApplicationContext().getCacheDir();
-		String cacheDir = cacheDirFile.getAbsolutePath();
+		//String cacheDir = cacheDirFile.getAbsolutePath();
 		String dataDir = cacheDirFile.getParentFile().getAbsolutePath();		
 		String libDir = dataDir + "/lib";
 		String tmpDir = "/sdcard/ppsdk";

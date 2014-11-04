@@ -3,25 +3,19 @@ package com.pplive.sdk;
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
-import javax.microedition.khronos.opengles.GL10;
 import javax.microedition.khronos.egl.*;
 
 import com.pplive.thirdparty.BreakpadUtil;
 
-import android.app.*;
 import android.content.*;
 import android.view.*;
 import android.os.*;
 import android.util.Log;
 import android.graphics.*;
-import android.text.method.*;
-import android.text.*;
 import android.media.*;
 import android.hardware.*;
-import android.content.*;
 
 import java.io.File;
-import java.lang.*;
 
 
 /**
@@ -130,7 +124,7 @@ public class SDLAndroid {
     static int COMMAND_CHANGE_TITLE = 1;
 
     // Handler for the messages
-    Handler commandHandler = new Handler() {
+    static Handler commandHandler = new Handler() {
         public void handleMessage(Message msg) {
             if (msg.arg1 == COMMAND_CHANGE_TITLE) {
                 //setTitle((String)msg.obj);
