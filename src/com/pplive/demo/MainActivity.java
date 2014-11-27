@@ -2,7 +2,7 @@ package com.pplive.demo;
 
 import java.io.File;
 
-import com.pplive.sdk.PPBOX;
+import com.pplive.sdk.JUST;
 import com.pplive.thirdparty.BreakpadUtil;
 
 import android.os.Bundle;
@@ -43,12 +43,12 @@ public class MainActivity extends Activity {
 		
 		BreakpadUtil.registerBreakpad(tmpDirFile);
 
-		PPBOX.libPath = libDir;
+		JUST.libPath = libDir;
 		//cacheDir.getAbsolutePath();
-		PPBOX.logPath = tmpDir;
-		PPBOX.logLevel = PPBOX.LEVEL_TRACE;
-		PPBOX.load();
-		PPBOX.StartEngine("161", "12", "111");
+		JUST.logPath = tmpDir;
+		JUST.logLevel = JUST.LEVEL_TRACE;
+		JUST.load();
+		JUST.StartEngine("161", "12", "111");
 	}
 	
 	@Override
