@@ -1,4 +1,4 @@
-package com.pplive.sdk;
+package com.just.sdk;
 
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;

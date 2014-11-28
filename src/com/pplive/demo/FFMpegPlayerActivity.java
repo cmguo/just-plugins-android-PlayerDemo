@@ -1,6 +1,6 @@
-package com.pplive.demo;
+package com.just.demo;
 
-import com.pplive.sdk.FFMpegPlayer;
+import com.just.sdk.FFMpegPlayer;
 
 import android.os.Bundle;
 import android.app.Activity;

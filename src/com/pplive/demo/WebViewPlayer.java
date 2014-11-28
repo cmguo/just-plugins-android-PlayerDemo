@@ -1,4 +1,4 @@
-package com.pplive.demo;
+package com.just.demo;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -21,7 +21,7 @@ public class WebViewPlayer extends WebViewClient {
 	@Override
 	public void onReceivedError(WebView view, int errorCode, String description, String failingUrl)
 	{
-		play("pplive2:///e9301e073cf94732a380b765c8b9573d-5-400");
+		play("just2:///e9301e073cf94732a380b765c8b9573d-5-400");
 	}
 	
 	@JavascriptInterface

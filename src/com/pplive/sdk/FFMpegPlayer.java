@@ -1,4 +1,4 @@
-package com.pplive.sdk;
+package com.just.sdk;
 
 import android.content.Context;
 import android.view.SurfaceView;

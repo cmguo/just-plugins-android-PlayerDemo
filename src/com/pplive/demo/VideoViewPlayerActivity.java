@@ -1,4 +1,4 @@
-package com.pplive.demo;
+package com.just.demo;
 
 import android.net.Uri;
 import android.os.Bundle;

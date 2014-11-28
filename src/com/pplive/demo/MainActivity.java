@@ -1,8 +1,8 @@
-package com.pplive.demo;
+package com.just.demo;
 
 import java.io.File;
 
-import com.pplive.sdk.JUST;
+import com.just.sdk.JUST;
 import com.pplive.thirdparty.BreakpadUtil;
 
 import android.os.Bundle;
