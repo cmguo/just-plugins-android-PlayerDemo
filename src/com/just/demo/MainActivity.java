@@ -48,6 +48,7 @@ public class MainActivity extends Activity {
 		JUST.logPath = tmpDir;
 		JUST.logLevel = JUST.LEVEL_TRACE;
 		JUST.load();
+		//JUST.SetConfig("", "HttpServer", "addr", "0.0.0.0:9876");
 		JUST.StartEngine("161", "12", "111");
 	}
 	
